@@ -1,0 +1,948 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="rtwreport.css" /><script language="JavaScript" type="text/javascript">function rtwTableShrink(o) {var t = o.nextSibling;if (t.nodeType != 1) {t = t.nextSibling;}if (t.style.display == "none") {t.style.display = "";o.innerHTML = "[-]"} else {t.style.display = "none";o.innerHTML = "[+] ... "}}</script><script language="JavaScript" type="text/javascript" src="rtwreport_utils.js"></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>
+Code Interface Report for ApplBTA_LDM
+</title>
+
+</head>
+<body ONLOAD="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdCodeInterface'); else local_onload();}} catch(err) {};">
+<h1>
+Code Interface Report for ApplBTA_LDM
+</h1>
+<h3>
+Table of Contents
+</h3>
+<ul>
+<li>
+<a href="#sec_Entry-Point_Functions">
+Entry-Point Functions
+</a>
+
+</li>
+<li>
+<a href="#sec_Inports">
+Inports
+</a>
+
+</li>
+<li>
+<a href="#sec_Outports">
+Outports
+</a>
+
+</li>
+<li>
+<a href="#sec_Interface_Parameters">
+Interface Parameters
+</a>
+
+</li>
+<li>
+<a href="#sec_Data_Stores">
+Data Stores
+</a>
+
+</li>
+
+</ul>
+<h3>
+<a name="sec_Entry-Point_Functions">
+Entry-Point Functions
+</a>
+
+</h3>
+<p>
+Function: <a href="ApplBTA_LDM_c.html#fcn_ApplBTA_LDM_initialize">ApplBTA_LDM_initialize</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void ApplBTA_LDM_initialize(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Initialization entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called exactly once
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="ApplBTA_LDM_h.html">ApplBTA_LDM.h</a>
+</td>
+
+</tr>
+
+</table>
+<p>
+Function: <a href="ApplBTA_LDM_c.html#fcn_ApplBTA_LDM_step">ApplBTA_LDM_step</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void ApplBTA_LDM_step(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Output entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called periodically, every 0.002 seconds
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="ApplBTA_LDM_h.html">ApplBTA_LDM.h</a>
+</td>
+
+</tr>
+
+</table>
+<p>
+Function: <a href="ApplBTA_LDM_c.html#fcn_ApplBTA_LDM_terminate">ApplBTA_LDM_terminate</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void ApplBTA_LDM_terminate(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Termination entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called exactly once
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="ApplBTA_LDM_h.html">ApplBTA_LDM.h</a>
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Inports">
+Inports
+</a>
+
+</h3>
+<span title="Click to shrink or expand table" onclick="rtwTableShrink(this)">[-]</span><table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Block Name
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:866')" name="code2model" class="code2model">&lt;Root&gt;/V_DBR_EBR_stBrkArbMode_en</a>
+</td>
+<td width="26%" align="left" valign="top">
+ApplBTA_LDM_U.V_DBR_EBR_stBrkArbMode_en
+</td>
+<td width="21%" align="left" valign="top">
+BrkArbMode_en_t
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:867')" name="code2model" class="code2model">&lt;Root&gt;/V_DBR_vldTrShftLvrPosVD_bl</a>
+</td>
+<td width="26%" align="left" valign="top">
+ApplBTA_LDM_U.V_DBR_vldTrShftLvrPosVD_bl
+</td>
+<td width="21%" align="left" valign="top">
+boolean_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:868')" name="code2model" class="code2model">&lt;Root&gt;/V_DBR_stTrShftLvrPos_en</a>
+</td>
+<td width="26%" align="left" valign="top">
+ApplBTA_LDM_U.V_DBR_stTrShftLvrPos_en
+</td>
+<td width="21%" align="left" valign="top">
+TrShftLvrPos_en_t
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:869')" name="code2model" class="code2model">&lt;Root&gt;/V_DBR_aDBRDecelReq_f32</a>
+</td>
+<td width="26%" align="left" valign="top">
+ApplBTA_LDM_U.V_DBR_aDBRDecelReq_f32
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:870')" name="code2model" class="code2model">&lt;Root&gt;/V_EBR_aCHACCDecelReq_f32</a>
+</td>
+<td width="26%" align="left" valign="top">
+ApplBTA_LDM_U.V_EBR_aCHACCDecelReq_f32
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:871')" name="code2model" class="code2model">&lt;Root&gt;/V_DBR_stDBRCSTRunbleSts_en</a>
+</td>
+<td width="26%" align="left" valign="top">
+ApplBTA_LDM_U.V_DBR_stDBRCSTRunbleSts_en
+</td>
+<td width="21%" align="left" valign="top">
+DBRCSTRunbleSts_en_t
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:872')" name="code2model" class="code2model">&lt;Root&gt;/V_EBR_stCHACCRunbleSts_en</a>
+</td>
+<td width="26%" align="left" valign="top">
+ApplBTA_LDM_U.V_EBR_stCHACCRunbleSts_en
+</td>
+<td width="21%" align="left" valign="top">
+CHACCRunbleSts_en_t
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:873')" name="code2model" class="code2model">&lt;Root&gt;/V_VDS_aVehAccLong_f32</a>
+</td>
+<td width="26%" align="left" valign="top">
+ApplBTA_LDM_U.V_VDS_aVehAccLong_f32
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:874')" name="code2model" class="code2model">&lt;Root&gt;/V_VDS_velVehSpd_f32</a>
+</td>
+<td width="26%" align="left" valign="top">
+ApplBTA_LDM_U.V_VDS_velVehSpd_f32
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Outports">
+Outports
+</a>
+
+</h3>
+<span title="Click to shrink or expand table" onclick="rtwTableShrink(this)">[-]</span><table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Block Name
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:875')" name="code2model" class="code2model">&lt;Root&gt;/V_LDM_stBrkArbMode_en</a>
+</td>
+<td width="26%" align="left" valign="top">
+V_LDM_stBrkArbMode_en
+</td>
+<td width="21%" align="left" valign="top">
+LDMBrkArbMode_en_t
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:876')" name="code2model" class="code2model">&lt;Root&gt;/V_LDM_stCtrlMode_en</a>
+</td>
+<td width="26%" align="left" valign="top">
+V_LDM_stCtrlMode_en
+</td>
+<td width="21%" align="left" valign="top">
+LDMCtrlMode_en_t
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:877')" name="code2model" class="code2model">&lt;Root&gt;/V_LDM_stBrkSrcMode_en</a>
+</td>
+<td width="26%" align="left" valign="top">
+V_LDM_stBrkSrcMode_en
+</td>
+<td width="21%" align="left" valign="top">
+LDM_BRK_SRC_MODE_EN_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:878')" name="code2model" class="code2model">&lt;Root&gt;/V_LDM_aCtrlerSetpoint_f32</a>
+</td>
+<td width="26%" align="left" valign="top">
+V_LDM_aCtrlerSetpoint_f32
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:879')" name="code2model" class="code2model">&lt;Root&gt;/V_LDM_aCtrlErr_f32</a>
+</td>
+<td width="26%" align="left" valign="top">
+V_LDM_aCtrlErr_f32
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:880')" name="code2model" class="code2model">&lt;Root&gt;/V_LDM_torqDecelCtrlerOut_f32</a>
+</td>
+<td width="26%" align="left" valign="top">
+V_LDM_torqDecelCtrlerOut_f32
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:881')" name="code2model" class="code2model">&lt;Root&gt;/V_LDM_coCtrlerPCoeff_f32</a>
+</td>
+<td width="26%" align="left" valign="top">
+V_LDM_coCtrlerPCoeff_f32
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:884')" name="code2model" class="code2model">&lt;Root&gt;/V_LDM_coCtrlerICoeff_f32</a>
+</td>
+<td width="26%" align="left" valign="top">
+V_LDM_coCtrlerICoeff_f32
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('ApplBTA_LDM:886')" name="code2model" class="code2model">&lt;Root&gt;/V_LDM_vldDecelCtrlerOutVD_bl</a>
+</td>
+<td width="26%" align="left" valign="top">
+V_LDM_vldDecelCtrlerOutVD_bl
+</td>
+<td width="21%" align="left" valign="top">
+LDM_VLD_EN_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Interface_Parameters">
+Interface Parameters
+</a>
+
+</h3>
+<span title="Click to shrink or expand table" onclick="rtwTableShrink(this)">[-]</span><table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Parameter Source
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K10_LDM_aOLCtrlerTableX
+</td>
+<td width="26%" align="left" valign="top">
+K10_LDM_aOLCtrlerTableX
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  10]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+K10_LDM_torqOLCtrlerTableY
+</td>
+<td width="26%" align="left" valign="top">
+K10_LDM_torqOLCtrlerTableY
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  10]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelCtrlCl2OlLim
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelCtrlCl2OlLim
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelCtrlHigh2LowLim
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelCtrlHigh2LowLim
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelCtrlLow2HighLim
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelCtrlLow2HighLim
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelCtrlOl2ClLim
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelCtrlOl2ClLim
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelParalCtrlCST_I
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelParalCtrlCST_I
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelParalCtrlCST_P
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelParalCtrlCST_P
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelParalCtrlEbrSB_I
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelParalCtrlEbrSB_I
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelParalCtrlEbrSB_P
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelParalCtrlEbrSB_P
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelParalCtrlHighSpd_I
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelParalCtrlHighSpd_I
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelParalCtrlHighSpd_P
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelParalCtrlHighSpd_P
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelParalCtrlLowSpd_I
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelParalCtrlLowSpd_I
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+K_LDM_coDecelParalCtrlLowSpd_P
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_coDecelParalCtrlLowSpd_P
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K_LDM_torqDecelClsCtrlerLowLim
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_torqDecelClsCtrlerLowLim
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+K_LDM_torqDecelClsCtrlerUpLim
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_torqDecelClsCtrlerUpLim
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K_LDM_torqDecelCtrlerLowLim
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_torqDecelCtrlerLowLim
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+K_LDM_torqDecelCtrlerUpLim
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_torqDecelCtrlerUpLim
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K_LDM_torqOLCtrlerLowLim
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_torqOLCtrlerLowLim
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+K_LDM_torqOLCtrlerUpLim
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_torqOLCtrlerUpLim
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+K_LDM_blClsLoopCtrlEnable_bl
+</td>
+<td width="26%" align="left" valign="top">
+K_LDM_blClsLoopCtrlEnable_bl
+</td>
+<td width="21%" align="left" valign="top">
+boolean_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Data_Stores">
+Data Stores
+</a>
+
+</h3>
+<p>
+No data stores in the model; note that this report lists only data stores with non-auto storage class and global data stores
+</p>
+
+</body>
+
+</html>
